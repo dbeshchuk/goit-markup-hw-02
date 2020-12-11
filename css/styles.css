@@ -23,7 +23,7 @@ h1, h2, h3 {
 
 h2 {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
 }
 
@@ -39,7 +39,8 @@ h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo > .header-logo-end {
@@ -58,7 +59,8 @@ header {
 
 header .link {
   color: var(--title-text-color);
-  line-height: 16px;
+  font-weight: 500;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -82,7 +84,7 @@ header .link.current {
   color: var(--primary-background-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -92,7 +94,7 @@ header .link.current {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
 }
@@ -100,12 +102,13 @@ header .link.current {
 /*Principles*/
 
 .principles h3 {
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
 .principles p {
-  line-height: 24px;
+  line-height: 1.71;
 }
 
 /*Team*/
@@ -113,13 +116,13 @@ header .link.current {
 .team h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
 }
 
 .team p {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
 }
 
@@ -142,22 +145,28 @@ footer .link {
 /*Portfolio*/
 
 .portfolio-nav button {
-  color: var(--primary-background-color);
-  background-color: var(--accent-color);
+  color: var(--title-text-color);
+  background-color: #F5F4FA;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   text-align: center;
+}
+
+.portfolio-nav button:hover,
+.portfolio-nav button:focus {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
 }
 
 .portfolio h3 {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .portfolio p {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
 }
